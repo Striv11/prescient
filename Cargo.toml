@@ -1,0 +1,18 @@
+[package]
+name = "prescient"
+version = "0.1.0"
+edition = "2021"
+description = "A predictive-coding sequence learner that learns online and shows its predictions"
+license = "MIT"
+repository = "https://github.com/Striv11/prescient"
+
+[lib]
+name = "prescient"
+path = "src/lib.rs"
+
+[[bin]]
+name = "prescient"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
